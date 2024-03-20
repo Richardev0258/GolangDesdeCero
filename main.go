@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/Richardev0258/GolangDesdeCero/ejercicios"
 )
 
 func main() {
@@ -28,10 +30,8 @@ func main() {
 
 		}*/
 	//EJERCICIO UNO
-	/*numConv, mensaje := ejercicios.ConviertoaNumero("a")
+	numConv, mensaje := ejercicios.ConviertoaNumero("10")
 
 	fmt.Println("El número convertido es: ", numConv)
-	fmt.Println("y", mensaje)*/
-
-	fmt.Println("Hola Mundo!")
+	fmt.Println("y", mensaje)
 }
