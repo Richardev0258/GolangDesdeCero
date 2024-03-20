@@ -1,4 +1,4 @@
-package variables
+package ejercicios
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ func ConviertoaNumero(numeroStr string) (int, string) {
 	numConv, error := strconv.Atoi(numeroStr)
 	if error != nil {
 		fmt.Println("Error al convertir la cadena a entero:", error)
-		return 0, "genere un error al convertir."
+		return 0, "se genero un error al convertir."
 	}
 	if numConv >= 100 {
 		textRet = "es mayor a 100"

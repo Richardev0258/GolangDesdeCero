@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Richardev0258/GolangDesdeCero/variables"
+	"github.com/Richardev0258/GolangDesdeCero/ejercicios"
 )
 
 func main() {
@@ -30,7 +30,7 @@ func main() {
 
 		}*/
 	//EJERCICIO UNO
-	numConv, mensaje := variables.ConviertoaNumero("a")
+	numConv, mensaje := ejercicios.ConviertoaNumero("10")
 
 	fmt.Println("El número convertido es: ", numConv)
 	fmt.Println("y", mensaje)
