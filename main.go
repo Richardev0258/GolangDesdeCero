@@ -30,7 +30,7 @@ func main() {
 
 		}*/
 	//EJERCICIO UNO
-	numConv, mensaje := ejercicios.ConviertoaNumero("10")
+	numConv, mensaje := ejercicios.ConviertoaNumero("a")
 
 	fmt.Println("El número convertido es: ", numConv)
 	fmt.Println("y", mensaje)
