@@ -7,7 +7,31 @@ import (
 )
 
 func main() {
-	estado, texto := variables.ConviertoaTexto(123)
+	//LLAMADO A OTRO PACKAGE
+	/*estado, texto := variables.ConviertoaTexto(123)
 	fmt.Println(estado)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+	//BLOQUE IF - SWITCH
+	/*
+		os := runtime.GOOS
+		if os == "Linux" || os == "OS X" {
+			fmt.Println("Esto no es Windows, es ", os)
+		} else {
+			fmt.Println("Esto es Windows")
+		}
+
+		switch os := runtime.GOOS; os {
+		case "Linux":
+			fmt.Println("Esto es Linux")
+		case "Darwin":
+			fmt.Println("Esto es Darwin")
+		default:
+			fmt.Printf("Esto es -> %s \n", os)
+
+		}*/
+
+	numConv, mensaje := variables.ConviertoaNumero("1")
+
+	fmt.Println("El número convertido es: ", numConv)
+	fmt.Println("y es ", mensaje)
 }
