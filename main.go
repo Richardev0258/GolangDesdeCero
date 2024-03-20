@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/Richardev0258/GolangDesdeCero/ejercicios"
+	"github.com/Richardev0258/GolangDesdeCero/teclado"
 )
 
 func main() {
@@ -30,8 +28,11 @@ func main() {
 
 		}*/
 	//EJERCICIO UNO
-	numConv, mensaje := ejercicios.ConviertoaNumero("10")
+	/*numConv, mensaje := ejercicios.ConviertoaNumero("10")
 
 	fmt.Println("El número convertido es: ", numConv)
-	fmt.Println("y", mensaje)
+	fmt.Println("y", mensaje)*/
+	//PACKAGE BUFIO
+	teclado.IngresoNumeros()
+
 }
