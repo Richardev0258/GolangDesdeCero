@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Richardev0258/GolangDesdeCero/teclado"
+	"github.com/Richardev0258/GolangDesdeCero/iteraciones"
 )
 
 func main() {
@@ -33,6 +33,8 @@ func main() {
 	fmt.Println("El número convertido es: ", numConv)
 	fmt.Println("y", mensaje)*/
 	//PACKAGE BUFIO
-	teclado.IngresoNumeros()
+	/*teclado.IngresoNumeros()*/
+
+	iteraciones.Iterar()
 
 }
