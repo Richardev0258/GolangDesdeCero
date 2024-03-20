@@ -10,12 +10,12 @@ func ConviertoaNumero(numeroStr string) (int, string) {
 	numConv, error := strconv.Atoi(numeroStr)
 	if error != nil {
 		fmt.Println("Error al convertir la cadena a entero:", error)
-		return 0, error.Error()
+		return 0, "genere un error al convertir."
 	}
 	if numConv >= 100 {
-		textRet = "Es mayor a 100"
+		textRet = "es mayor a 100"
 	} else {
-		textRet = "Es menor a 100"
+		textRet = "es menor a 100"
 	}
 	return numConv, textRet
 }

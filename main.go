@@ -29,9 +29,9 @@ func main() {
 			fmt.Printf("Esto es -> %s \n", os)
 
 		}*/
-
-	numConv, mensaje := variables.ConviertoaNumero("1")
+	//EJERCICIO UNO
+	numConv, mensaje := variables.ConviertoaNumero("a")
 
 	fmt.Println("El número convertido es: ", numConv)
-	fmt.Println("y es ", mensaje)
+	fmt.Println("y", mensaje)
 }
